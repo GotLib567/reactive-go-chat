@@ -1,0 +1,19 @@
+.block {
+  width: 100%;
+  display: flex; }
+  .block.outgoing {
+    justify-content: flex-end; }
+  .block.incoming {
+    justify-content: flex-start; }
+
+.container {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  margin: 10px;
+  border: 1px solid #c6c6c6; }
+  .container.outgoing {
+    background-color: #eeffde; }
+  .container.incoming {
+    background-color: #ffffff; }
+
+/*# sourceMappingURL=styles.module.css.map */
